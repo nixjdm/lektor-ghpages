@@ -1,2 +1,8 @@
 [project]
 name = lektor-ghpages
+
+[servers.ghpages]
+name = GitHubPages
+enabled = yes
+default = yes
+target = ghpages+https://nixjdm/lektor-ghpages
